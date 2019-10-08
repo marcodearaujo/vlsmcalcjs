@@ -6,7 +6,7 @@ Lib to calc Variable Length Subnet Masking
 npm install vlsmcalc
 
 ### Usage
-new Subnet(a, b) where, a=subnet size array, b=major network
+new vlsmcalc(a, b) where, a=subnet size array, b=major network
 
 `var vlsmcalc = require("vlsmcalc")`
 
