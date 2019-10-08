@@ -3,29 +3,23 @@
   "version": "0.0.1",
   "description": "Lib to calc Variable Length Subnet Masking",
   "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/marcoaraujojunior/vlsmcalcjs"
+    "url": "git+https://github.com/marcoaraujojunior/vlsmcalcjs.git"
   },
   "keywords": [
     "vlsm-calc"
   ],
-  "author": {
-    "name": "Marco De Araujo"
-  },
-  "readme": "# Lib to calc Variable Length Subnet Masking ## Installnn npm install vlsmcalc ## API ### new Subnet(a, b) where, a=subnet size array, b=major network",
-  "readmeFilename": "README.md",
-  "dependencies": {},
-  "devDependencies": {},
-  "optionalDependencies": {},
-  "engines": {
-    "node": "*"
-  },
+  "author": "Marco De Araujo",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/marcoaraujojunior/vlsmcalcjs/issues"
   },
-  "homepage": "https://marcojunior.com",
-  "_id": "vlsmcalc@0.0.1",
-  "scripts": {},
-  "_from": "vlsmcalc@"
+  "homepage": "https://marcojunior.com"
 }
