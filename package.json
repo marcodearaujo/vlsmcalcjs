@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest test/* --coverage"
+    "test": "jest test/*"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,9 @@
   "homepage": "https://marcojunior.com",
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "jest" :{
+    "collectCoverage": true,
+    "coverageReporters": ["lcov", "text-summary"]
   }
 }
