@@ -5,7 +5,10 @@ node_js:
   - 'lts/*'
 
 install:
-  - npm install --dev
+  - npm install --only=dev
 
 script:
   - npm run test
+
+after_script:
+  - cat ./coverage/lcov.info | coveralls

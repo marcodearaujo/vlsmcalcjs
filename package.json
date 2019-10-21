@@ -23,10 +23,14 @@
   },
   "homepage": "https://marcojunior.com",
   "devDependencies": {
+    "coveralls": "^3.0.7",
     "jest": "^24.9.0"
   },
-  "jest" :{
+  "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["lcov", "text-summary"]
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ]
   }
 }
