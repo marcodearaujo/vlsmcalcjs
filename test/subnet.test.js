@@ -15,7 +15,7 @@ var scenario = scenarioFiveSubnet();
 
 test('getSubnetCreated Test Shoud Return Eight When Five Subnet Need', () => {
   subnet = new Subnet(scenario.Item1, scenario.Item2);
-  expect(subnet.getSubnetCreated()).toBe(8);
+  expect(subnet.getSubnetCreated()).toBe(9);
 });
 
 test('isValid Should Return False When Prefix Is Not A Valid Number', () => {
