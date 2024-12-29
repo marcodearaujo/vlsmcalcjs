@@ -1,6 +1,6 @@
 {
   "name": "vlsmcalc",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "Lib to calc Variable Length Subnet Masking",
   "main": "./lib/index.js",
   "directories": {
