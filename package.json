@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcoaraujojunior/vlsmcalcjs.git"
+    "url": "git+https://github.com/marcodearaujo/vlsmcalcjs.git"
   },
   "keywords": [
     "vlsm-calc"
@@ -20,7 +20,7 @@
   "author": "Marco De Araujo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marcoaraujojunior/vlsmcalcjs/issues"
+    "url": "https://github.com/marcodearaujo/vlsmcalcjs/issues"
   },
   "homepage": "https://marcodearaujo.com/",
   "devDependencies": {
