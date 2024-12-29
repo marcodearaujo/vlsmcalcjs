@@ -6,7 +6,6 @@
 Lib to calc Variable Length Subnet Masking
 
 
-
 ## Install
 npm install vlsmcalc
 
