@@ -1,10 +1,8 @@
 # vlsmcalc
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/vlsmcalc" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/vlsmcalc.svg" alt="NPM downloads" /></a></span>
-<!-- README.md -->
-+ [![cov](https://marcodearaujo.github.io/vlsmcalcjs/badges/coverage.svg)](https://github.com/marcodearaujo/vlsmcalcjs/actions)
+[![cov](https://marcodearaujo.github.io/marcodearaujo/badges/coverage.svg)](https://github.com/marcodearaujo/marcodearaujo/actions)
 
 Lib to calc Variable Length Subnet Masking
-
 
 
 ## Install
