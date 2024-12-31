@@ -15,9 +15,9 @@ test('getPrefix Should Return Thirty When Size Needed Are Two', () => {
   expect(network.getPrefix()).toBe(30);
 });
 
-test('getNetworkMultiple Test Should Return Four When Size Needed Are Two', () => {
+test('getNetworkMultiplier Test Should Return Four When Size Needed Are Two', () => {
   network = new Network(2, "192.168.10.0/24");
-  expect(network.getNetworkMultiple()).toBe(4);
+  expect(network.getNetworkMultiplier()).toBe(4);
 });
 
 test('getMaskTest Should Return Two Five Two When Size Needed Are Two', () => {
@@ -110,9 +110,9 @@ test('getPrefix Test Should Return Thirty When Size Needed Are One Thousand', ()
   expect(network.getPrefix()).toBe(22);
 });
 
-test('getNetworkMultiple Test Should Return Four When Size Needed Are One Thousand', () => {
+test('getNetworkMultiplier Test Should Return Four When Size Needed Are One Thousand', () => {
   network = new Network(1000, "192.168.4.0/22");
-  expect(network.getNetworkMultiple()).toBe(4);
+  expect(network.getNetworkMultiplier()).toBe(4);
 });
 
 test('getMaskTest Should Return Two Five Two When Size Needed Are One Thousand', () => {
@@ -160,9 +160,9 @@ test('getPrefix Test Should Return Nineteen When Size Needed Are Five Thousand',
   expect(network.getPrefix()).toBe(19);
 });
 
-test('getNetworkMultiple Test Should Return Thirty Two When Size Needed Are Five Thousand', () => {
+test('getNetworkMultiplier Test Should Return Thirty Two When Size Needed Are Five Thousand', () => {
   network = new Network(5000, "192.168.0.0/16");
-  expect(network.getNetworkMultiple()).toBe(32);
+  expect(network.getNetworkMultiplier()).toBe(32);
 });
 
 test('getMask Test Should Return Two Twenty-Four When Size Needed Are Five Thousand', () => {

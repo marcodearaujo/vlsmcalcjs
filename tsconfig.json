@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowJs": true,          // Allows JavaScript files to be included
+    "checkJs": true,          // Enable type checking for JavaScript files
+    "noEmit": true,           // Prevent TypeScript from emitting output files (we just want type checks)
+    "strict": true,           // Enable strict type checking
+    "esModuleInterop": true,  // For compatibility with ES modules
+    "moduleResolution": "node", // Default for Node.js-style resolution
+    "target": "ES6",          // Can set to the version you need
+    "module": "commonjs"      // Or "ES6" depending on your project
+  },
+  "include": [
+    "lib/**/*.js"             // Make sure this path is correct for where your JS files are located
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
