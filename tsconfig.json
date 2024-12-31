@@ -1,18 +1,28 @@
 {
   "compilerOptions": {
-    "allowJs": true,          // Allows JavaScript files to be included
-    "checkJs": true,          // Enable type checking for JavaScript files
-    "noEmit": true,           // Prevent TypeScript from emitting output files (we just want type checks)
-    "strict": true,           // Enable strict type checking
-    "esModuleInterop": true,  // For compatibility with ES modules
-    "moduleResolution": "node", // Default for Node.js-style resolution
-    "target": "ES6",          // Can set to the version you need
-    "module": "commonjs"      // Or "ES6" depending on your project
+    "allowJs": true,                 // Allows JavaScript files to be included for type-checking
+    "checkJs": true,                 // Enables type checking for JavaScript files
+    "noEmit": true,                  // Prevents TypeScript from emitting any JavaScript output
+    "strict": true,                  // Enables strict type checking
+    "esModuleInterop": true,         // For compatibility with ES module imports in CommonJS code
+    "moduleResolution": "node",      // Ensures Node.js-style module resolution (helpful for npm packages)
+    "target": "ES6",                 // Compiles to ES6 for modern JavaScript
+    "module": "commonjs",            // Use CommonJS module system (standard for Node.js)
+    "skipLibCheck": true,            // Optional: Skips type checking for declaration files (can speed up compilation)
+    "resolveJsonModule": true,       // Allows importing JSON files as modules (optional)
+    "typeRoots": [
+      "./node_modules/@types",       // Includes @types from node_modules
+      "./types"                       // Custom type declarations in the 'types' folder
+    ],
+    "types": ["node"],               // Type definitions for Node.js (add more if needed)
+    "declaration": true,             // Enable the generation of declaration files
+    "declarationDir": "./types"      // Specify the directory for TypeScript declaration files
   },
   "include": [
-    "lib/**/*.js"             // Make sure this path is correct for where your JS files are located
+    "lib/**/*.js",                   // Include JavaScript files in 'lib' directory for type checking
+    "types/**/*.d.ts"                // Include custom type declaration files
   ],
   "exclude": [
-    "node_modules"
+    "node_modules"                   // Exclude the node_modules directory
   ]
 }
