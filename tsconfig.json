@@ -8,7 +8,6 @@
     "moduleResolution": "node",      // Ensures Node.js-style module resolution (helpful for npm packages)
     "target": "ES6",                 // Compiles to ES6 for modern JavaScript
     "module": "commonjs",            // Use CommonJS module system (standard for Node.js)
-    "skipLibCheck": true,            // Optional: Skips type checking for declaration files (can speed up compilation)
     "resolveJsonModule": true,       // Allows importing JSON files as modules (optional)
     "typeRoots": [
       "./node_modules/@types",       // Includes @types from node_modules
